@@ -1,4 +1,7 @@
 {
-    "mochaExplorer.files": "test/**/*.ts",
-    "mochaExplorer.require": "ts-node/register"
+    "mochaExplorer.files": "src/test/**/*.ts",
+    "mochaExplorer.require": "ts-node/register",
+    "mochaExplorer.env": {
+        "NODE_ENV": "test"
+    }
 }
