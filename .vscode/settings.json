@@ -1,4 +1,4 @@
 {
-    "mochaExplorer.files": "test/**/*.ts",
-    "mochaExplorer.require": "ts-node/register"
+    "mocha.files.glob": "test/**/*.test.js",
+    "mocha.requires": ["ts-node/register"]
 }
